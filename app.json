@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Manajemen Data Siswa",
+    "slug": "manajemen-data-siswa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#89ABD2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pelitanusantara.datasiswa"
+    },
+    "android": {
+      "package": "com.pelitanusantara.datasiswa",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#89ABD2",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    }
+  }
+}
